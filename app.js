@@ -18,3 +18,19 @@ btnSi.addEventListener('click', function(e){
     cancion.play();
 });
 
+divModoSexo.addEventListener('click', function(e){
+    const img = document.createElement("img");
+    img.src = "https://i.pinimg.com/originals/c5/e3/c9/c5e3c9b5260daa31f5a4ab03ff048ece.png"
+    console.log(img)
+    divModoSexo.appendChild(img)
+})
+
+botones = document.getElementsByTagName("button");
+console.log(botones);
+
+window.addEventListener('beforeunload', (event) =>{
+    event.preventDefault();
+    event.returnValue = "";
+
+})
+
