@@ -14,7 +14,7 @@ btnSi.addEventListener('click', function(e){
     alert('sabia que dirias que si, casemonos y tengamos hijos ')
 
     divModoSexo.style.display = 'block';
-    const cancion = new Audio ('img\modo_hot.mp3');//ruta del audio
+    const cancion = new Audio ('img\\modo_hot.mp3');//ruta del audio
     cancion.play();
 });
 
